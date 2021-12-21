@@ -13,6 +13,9 @@ Group: System/Libraries
 BuildRequires: meson ninja
 BuildRequires: xmlto
 BuildRequires: systemd-macros
+BuildRequires: qt5-devel
+BuildRequires: pkgconfig(gtk+-3.0)
+BuildRequires: pkgconfig(gtk4)
 BuildRequires: pkgconfig(glib-2.0)
 BuildRequires: pkgconfig(gio-2.0)
 BuildRequires: pkgconfig(gio-unix-2.0)
