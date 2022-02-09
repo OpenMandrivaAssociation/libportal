@@ -60,4 +60,3 @@ Async API for most Flatpak portals
 %{_includedir}/libportal
 %{_libdir}/*.so
 %{_libdir}/pkgconfig/libportal.pc
-%doc %{_datadir}/gtk-doc/html/libportal
