@@ -4,7 +4,7 @@
 %define devname %mklibname -d portal
 
 Name: libportal
-Version: 0.5
+Version: 0.6
 Release: 1
 Source0: https://github.com/flatpak/libportal/archive/%{version}/%{name}-%{version}.tar.gz
 Summary: Async API for most Flatpak portals
