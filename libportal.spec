@@ -5,7 +5,7 @@
 
 Name: libportal
 Version: 0.6
-Release: 1
+Release: 2
 Source0: https://github.com/flatpak/libportal/archive/%{version}/%{name}-%{version}.tar.gz
 Summary: Async API for most Flatpak portals
 URL: http://github.com/flatpak/libportal
