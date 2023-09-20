@@ -4,11 +4,11 @@
 %define devname %mklibname -d portal
 
 Name: libportal
-Version: 0.6
-Release: 2
+Version: 0.7.1
+Release: 1
 Source0: https://github.com/flatpak/libportal/archive/%{version}/%{name}-%{version}.tar.gz
 Summary: Async API for most Flatpak portals
-URL: http://github.com/flatpak/libportal
+URL: https://github.com/flatpak/libportal
 License: GPL
 Group: System/Libraries
 BuildRequires: meson ninja
