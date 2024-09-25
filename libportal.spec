@@ -18,6 +18,7 @@ BuildRequires: qt5-devel
 BuildRequires: pkgconfig(Qt5X11Extras)
 BuildRequires: cmake(Qt6Core)
 BuildRequires: cmake(Qt6Gui)
+BuildRequires: cmake(Qt6Test)
 BuildRequires: cmake(Qt6Widgets)
 BuildRequires: pkgconfig(gi-docgen)
 BuildRequires: pkgconfig(gtk+-3.0)
