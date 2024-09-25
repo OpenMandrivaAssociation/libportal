@@ -82,6 +82,7 @@ Async API for most Flatpak portals
 %{_libdir}/pkgconfig/libportal-gtk3.pc
 %{_libdir}/pkgconfig/libportal-gtk4.pc
 %{_libdir}/pkgconfig/libportal-qt5.pc
+%{_libdir}/pkgconfig/libportal-qt6.pc
 %{_datadir}/gir-1.0/Xdp-1.0.gir
 %{_datadir}/gir-1.0/XdpGtk3-1.0.gir
 %{_datadir}/gir-1.0/XdpGtk4-1.0.gir
