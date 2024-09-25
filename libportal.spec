@@ -4,7 +4,7 @@
 %define devname %mklibname -d portal
 
 Name: libportal
-Version: 0.7.1
+Version: 0.8.1
 Release: 1
 Source0: https://github.com/flatpak/libportal/archive/%{version}/%{name}-%{version}.tar.gz
 Summary: Async API for most Flatpak portals
@@ -16,6 +16,10 @@ BuildRequires: xmlto
 BuildRequires: systemd-macros
 BuildRequires: qt5-devel
 BuildRequires: pkgconfig(Qt5X11Extras)
+BuildRequires: cmake(Qt6Core)
+BuildRequires: cmake(Qt6Gui)
+BuildRequires: cmake(Qt6Test)
+BuildRequires: cmake(Qt6Widgets)
 BuildRequires: pkgconfig(gi-docgen)
 BuildRequires: pkgconfig(gtk+-3.0)
 BuildRequires: pkgconfig(gtk4)
@@ -78,6 +82,7 @@ Async API for most Flatpak portals
 %{_libdir}/pkgconfig/libportal-gtk3.pc
 %{_libdir}/pkgconfig/libportal-gtk4.pc
 %{_libdir}/pkgconfig/libportal-qt5.pc
+%{_libdir}/pkgconfig/libportal-qt6.pc
 %{_datadir}/gir-1.0/Xdp-1.0.gir
 %{_datadir}/gir-1.0/XdpGtk3-1.0.gir
 %{_datadir}/gir-1.0/XdpGtk4-1.0.gir
